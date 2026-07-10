@@ -1,0 +1,36 @@
+{
+  "laboratory": {
+    "name": "LaserLab",
+
+    "probe_station": {
+      "side": "East",
+      "fiber_type": "Single"
+    }
+  },
+
+  "instruments": {
+
+    "pm103": {
+      "enabled": true,
+      "resource": "USB0::0x1313::0x807A::M01044648::INSTR"
+    },
+
+    "osa20": {
+      "enabled": true,
+      "host": "10.58.12.31",
+      "port": 5025
+    },
+
+    "k4200": {
+      "enabled": true,
+      "host": "10.58.12.208",
+      "port": 36001
+    },
+
+    "mpi": {
+      "enabled": true,
+      "host": "10.58.12.8",
+      "port": 35555
+    }
+  }
+}
