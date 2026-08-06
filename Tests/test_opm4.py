@@ -6,12 +6,12 @@ Created on Fri Jul 10 22:06:33 2026
 @author: TM0019
 """
 
-from opm import PM103
+from instruments.opm import PM103
 import statistics
 import time
 
 
-ADDRESS = "USB0::0x1313::0x80B0::XXXXXXXX::INSTR"
+ADDRESS = "USB0::0x1313::0x807A::M01044648::INSTR"
 
 
 def heading(title):
